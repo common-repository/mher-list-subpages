@@ -1,0 +1,172 @@
+# Copyright (C) 2024 mher list Childpages
+# This file is distributed under the same license as the mher list Childpages package.
+msgid ""
+msgstr ""
+"Project-Id-Version: mher list Childpages 0.1 BETA\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mher-list-"
+"subpages\n"
+"POT-Creation-Date: 2024-06-18T12:17:37+02:00\n"
+"PO-Revision-Date: 2024-07-05 09:32+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#. Plugin Name of the plugin
+#: C:\phpdev\wp\wp-content\plugins\mher-list-subpages\mher-list-subpages.php
+msgid "mher list Subpages"
+msgstr "mher list Subpages"
+
+#. Plugin URI of the plugin
+#: C:\phpdev\wp\wp-content\plugins\mher-list-subpages\mher-list-subpages.php
+msgid "https://mher.de/mher-list-subpages"
+msgstr "https://mher.de/mher-list-subpages"
+
+#. Description of the plugin
+#: C:\phpdev\wp\wp-content\plugins\mher-list-subpages\mher-list-subpages.php
+msgid ""
+"creates a list of subpages with featured image, title and the content of the "
+"blocks named 'teaser' or any other name provided in the shortcode"
+msgstr ""
+"erstellt eine Liste von Unterseiten mit Bild, Titel und dem Inhalt der "
+"Blöcke mit dem Namen 'teaser' oder einem anderen im Shortcode angegebenen "
+"Namen"
+
+#. Author of the plugin
+#: C:\phpdev\wp\wp-content\plugins\mher-list-subpages\mher-list-subpages.php
+msgid "Michael H.E. Roth"
+msgstr "Michael H.E. Roth"
+
+#. Author URI of the plugin
+#: C:\phpdev\wp\wp-content\plugins\mher-list-subpages\mher-list-subpages.php
+msgid "https://www.mher.de"
+msgstr "https://www.mher.de"
+
+#: MherListSubpagesSettings.php:51
+msgid "Settings Saved"
+msgstr "Einstellungen gespeichert"
+
+#: MherListSubpagesSettings.php:68
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: MherListSubpagesSettings.php:82
+msgid "Select a fallback image."
+msgstr "Wählen sie ein Fallback-Bild aus."
+
+#: MherListSubpagesSettings.php:88
+msgid "Define your own templates"
+msgstr "Definieren sie ihre eigenen Templates"
+
+#: MherListSubpagesSettings.php:102
+msgid "Here you can define your own default fallback image"
+msgstr "Hier können Sie Ihr eigenes Standard-Fallback-Bild definieren"
+
+#: MherListSubpagesSettings.php:103
+msgid "You can override this in the shortcode, i.e "
+msgstr "Sie können dies im Shortcode überschreiben. Z.B.: "
+
+#: MherListSubpagesSettings.php:104
+msgid ""
+"(if a featured image is present for the subpage this still takes precedence)"
+msgstr ""
+"(wenn für die Unterseite ein Featured Image vorhanden ist, hat dieses immer "
+"noch Vorrang)"
+
+#: MherListSubpagesSettings.php:110
+msgid "Here you can define your own templates for the listings"
+msgstr "Hier können Sie Ihre eigenen Templates für die Listings definieren"
+
+#: MherListSubpagesSettings.php:111
+msgid ""
+"You can use the following placeholders for data from the subpages in the "
+"template for the subpages"
+msgstr ""
+"Im Template für die Unterseiten können Sie die folgenden Platzhalter für "
+"Daten aus den Unterseiten verwenden"
+
+#: MherListSubpagesSettings.php:112
+msgid "for the subpage's title"
+msgstr "für den Titel der Unterseite"
+
+#: MherListSubpagesSettings.php:113
+msgid "for the subpage's url"
+msgstr "für die URL der Unterseite"
+
+#: MherListSubpagesSettings.php:114
+msgid "for the complete html for the  subpage's image"
+msgstr "für das vollständige HTML für das Bild der Unterseite"
+
+#: MherListSubpagesSettings.php:115
+msgid "for the subpage's image url"
+msgstr "für die URL des Bildes auf der Unterseite"
+
+#: MherListSubpagesSettings.php:116
+msgid "for the subpage's blocks you selected via their block name"
+msgstr ""
+"für die Blöcke der Unterseite, die Sie über ihren Blocknamen ausgewählt haben"
+
+#: MherListSubpagesSettings.php:118
+msgid ""
+"You can select the template in the shortcode by name or by number. I.e. "
+msgstr ""
+"Sie können das Template im Shortcode über den Namen oder über die Nummer "
+"auswählen. Z.B.: "
+
+#: MherListSubpagesSettings.php:131
+msgid "Fallback image"
+msgstr "Fallback-Bild"
+
+#: MherListSubpagesSettings.php:139
+msgid "Templates"
+msgstr "Templates"
+
+#: MherListSubpagesSettings.php:160
+msgid "Select Image:"
+msgstr "Wähle Bild aus:"
+
+#: MherListSubpagesSettings.php:162
+msgid "Use Media Library"
+msgstr "Benutze die Medienbibliothek"
+
+#: MherListSubpagesSettings.php:166
+msgid "currently selected:"
+msgstr "aktuell ausgewählt:"
+
+#. translators: add %d where the number of the template should be included
+#: MherListSubpagesSettings.php:201
+msgid "Template No. %d"
+msgstr "Template Nr. %d"
+
+#: MherListSubpagesSettings.php:202
+msgid "Template Name"
+msgstr "Template Name"
+
+#: MherListSubpagesSettings.php:204
+msgid "Template Head"
+msgstr "Template Kopf"
+
+#: MherListSubpagesSettings.php:206
+msgid "Template for subpage elements"
+msgstr "Template für die Elemente der Unterseiten"
+
+#: MherListSubpagesSettings.php:208
+msgid "Template Foot"
+msgstr "Template Fuß"
+
+#: MherListSubpagesSettings.php:216
+msgid "add tempate"
+msgstr "Template hinzufügen"
+
+#~ msgid "<code>{{ img }}</code> for the childpage's image (already rendered)"
+#~ msgstr ""
+#~ "<code>{{ img }}</code> für das Bild der Childpage (bereits gerendert)"
+
+#~ msgid "currently selected"
+#~ msgstr "aktuell ausgewählt"
+
+#~ msgid "http://mher.de/screw-you--you-should-never-see-this"
+#~ msgstr "http://mher.de/screw-you--you-should-never-see-this"
